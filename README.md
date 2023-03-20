@@ -1,5 +1,12 @@
-## Getting Started
+<h2>About the project</h2>
 
-1. Clone the project
-2. Install node modules - npm install
-3. Start the server - npm run dev
+<p>This is a website agregator about top coworkings in Ukraine.</p>
+
+👉 Live Demo: <a href='https://ag-topcoworkings.vercel.app/'>Topcoworkings Demo</a>
+
+<h3>Build with:</h3>
+
+» HTML <br>
+» SCSS <br>
+» NEXT JS <br>
+» MARKDOWN <br>

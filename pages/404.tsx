@@ -11,8 +11,7 @@ export default function NotFoundPage() {
                             існує.
                         </h1>
                         <p>
-                            Спробуйте іншу адресу або перейдіть
-                            <Link href="/">на головну</Link>
+                            Спробуйте іншу адресу або перейдіть <Link aria-label="Повернутися на головну сторінку" href="/">на головну</Link>
                         </p>
                     </div>
                 </div>

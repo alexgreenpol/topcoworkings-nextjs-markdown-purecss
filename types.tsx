@@ -1,7 +1,5 @@
 export type frontmatter = {
-    title: string;
     socialImage: string;
-    metaTitle: string;
     prices: string[];
     metaDesc: string;
     galleryImages: string[];
@@ -10,11 +8,28 @@ export type frontmatter = {
     phone: string;
     website: string;
     coworkingName: string;
-    tags: string[];
-    date: string;
+    faq: faqData[];
+    date: {
+        publishDate: string;
+        modifyDate: string;
+    };
+    author: {
+        name: string;
+        url: string;
+    };
 };
 
 export type coworkingData = {
     slug: string;
     frontmatter: frontmatter;
+};
+
+export type faqData = {
+    question: string;
+    answer: string;
+};
+
+export type coworkingPageProps = {
+    frontmatter: frontmatter;
+    content: string;
 };
